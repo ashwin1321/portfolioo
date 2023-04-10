@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import "./App.css"
-import Logo from "./components/Logo"
 import Navbar from "./components/Header"
 
 function App() {
 
   return (
-    <div className="App">
+    <div className='app'>
       <Navbar />
-      {/* <Logo /> */}
     </div>
   )
 }

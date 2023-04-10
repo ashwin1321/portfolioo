@@ -1,20 +1,8 @@
-.colorPrimary {
-  color: #e06b26;
-  font-size: 2.5rem;
-}
-
-.colorHover {
-  color: #e45c0e;
-}
-
-.colorSecondary {
-  color: #302d2c;
-}
-
 .logo {
   align-items: center;
   width: 150px;
   height: 90px;
+  margin-left: 30%;
 }
 
 .logo:hover {

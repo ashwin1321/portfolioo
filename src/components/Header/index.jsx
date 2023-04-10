@@ -5,7 +5,7 @@ import Menu from '../Menu'
 
 const index = () => {
     return (
-        <div>
+        <div className={Style.navItems}>
             <Logo />
             <Menu />
         </div>

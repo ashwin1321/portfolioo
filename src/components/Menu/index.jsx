@@ -5,12 +5,12 @@ import Style from './Menu.module.css'
 const index = () => {
     return (
         <div className={Style.menuList}>
-            <MenuItem menuItem="Home" />
-            <MenuItem menuItem="About" />
-            <MenuItem menuItem="Education" />
-            <MenuItem menuItem="Projects" />
-            <MenuItem menuItem="Skills" />
-            <MenuItem menuItem="Contact" />
+            <MenuItem menuItem="home" />
+            <MenuItem menuItem="about" />
+            <MenuItem menuItem="education" />
+            <MenuItem menuItem="projects" />
+            <MenuItem menuItem="skills" />
+            <MenuItem menuItem="contact" />
         </div>
     )
 }
