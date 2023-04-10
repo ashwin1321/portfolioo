@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='app'>
-      {/* <Navbar
+      <Navbar
         homeRef={homeRef}
         aboutRef={aboutRef}
         projectRef={projectRef}
@@ -29,9 +29,7 @@ function App() {
       <About aboutRef={aboutRef} />
       <Project projectRef={projectRef} />
       <Skills skillsRef={skillsRef} />
-      <Contact contactRef={contactRef} /> */}
-      <Button />
-
+      <Contact contactRef={contactRef} />
     </div>
   )
 }
