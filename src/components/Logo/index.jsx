@@ -1,10 +1,12 @@
 import React from 'react'
-import Style from './Logo.module.css'
+import { logo } from '../../assets/logo'
+import style from './Logo.module.css'
+
 
 const Index = () => {
     return (
-        <div className={Style.logo}>
-            sg
+        <div>
+            <img src={logo} alt="" className={style.logo} />
         </div>
     )
 }

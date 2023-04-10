@@ -10,3 +10,13 @@
 .colorSecondary {
   color: #302d2c;
 }
+
+.logo {
+  align-items: center;
+  width: 150px;
+  height: 90px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
