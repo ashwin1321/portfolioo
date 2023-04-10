@@ -1,6 +1,7 @@
 .none {
   text-decoration: none;
   color: #302d2c;
+  cursor: pointer;
 }
 
 .none:hover {

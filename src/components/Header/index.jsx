@@ -3,11 +3,11 @@ import Style from './Navbar.module.css'
 import Logo from '../Logo'
 import Menu from '../Menu'
 
-const index = () => {
+const index = (props) => {
     return (
         <div className={Style.navItems}>
             <Logo />
-            <Menu />
+            <Menu  {...props} />
         </div>
     )
 }
