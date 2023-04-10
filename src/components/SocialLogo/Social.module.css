@@ -1,6 +1,6 @@
 .icons {
   display: flex;
-  width: 190px;
+  width: 160px;
   gap: 10px;
   justify-content: space-between;
   margin: 10px auto;
@@ -9,13 +9,14 @@
 }
 
 .icon {
-  width: 50px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   color: #dd7b42;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid #dd7b42;
 }
 
 .icon:hover {
