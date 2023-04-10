@@ -7,7 +7,6 @@ const index = () => {
         <div className={Style.menuList}>
             <MenuItem menuItem="home" />
             <MenuItem menuItem="about" />
-            <MenuItem menuItem="education" />
             <MenuItem menuItem="projects" />
             <MenuItem menuItem="skills" />
             <MenuItem menuItem="contact" />
