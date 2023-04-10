@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Project from "./pages/Projects"
 import Contact from "./pages/Contacts"
 import Skills from "./pages/Skills"
+import Button from "./components/Button"
 
 function App() {
   const homeRef = useRef(null)
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className='app'>
-      <Navbar
+      {/* <Navbar
         homeRef={homeRef}
         aboutRef={aboutRef}
         projectRef={projectRef}
@@ -28,7 +29,8 @@ function App() {
       <About aboutRef={aboutRef} />
       <Project projectRef={projectRef} />
       <Skills skillsRef={skillsRef} />
-      <Contact contactRef={contactRef} />
+      <Contact contactRef={contactRef} /> */}
+      <Button />
 
     </div>
   )
