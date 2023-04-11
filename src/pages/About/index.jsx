@@ -1,5 +1,6 @@
 import React from 'react'
 import Style from './About.module.css'
+import Button from '../../components/Button'
 
 const index = ({ aboutRef }) => {
     return (
