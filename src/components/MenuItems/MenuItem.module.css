@@ -6,4 +6,5 @@
 
 .none:hover {
   color: #e45c0e;
+  transition: 0.5s;
 }

@@ -22,4 +22,5 @@
 .icon:hover {
   background-color: #dd7b42;
   color: #fff;
+  transition: 0.4s;
 }
