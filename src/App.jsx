@@ -27,9 +27,9 @@ function App() {
 
       {/* <Home homeRef={homeRef} /> */}
       <About aboutRef={aboutRef} />
-      <Project projectRef={projectRef} />
-      <Skills skillsRef={skillsRef} />
-      <Contact contactRef={contactRef} />
+      {/* <Project projectRef={projectRef} /> */}
+      {/* <Skills skillsRef={skillsRef} /> */}
+      {/* <Contact contactRef={contactRef} /> */}
     </div>
   )
 }
