@@ -26,11 +26,13 @@
 .name {
   font-size: 4rem;
   color: #302d2c;
+  position: relative;
 }
 
 .img {
   margin-right: 15%;
   margin-top: 9.2%;
+  z-index: 20;
 }
 
 .img:hover {
@@ -51,10 +53,9 @@
 }
 
 .line {
-  width: 100%;
-  height: 1px;
-  background-color: #302d2c;
   margin-top: -8px;
   opacity: 0.1;
-  box-shadow: 0 0 10px #302d2c;
+  border: 1px solid #302d2c;
+  position: relative;
+  z-index: -10;
 }

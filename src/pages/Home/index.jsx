@@ -3,6 +3,7 @@ import Style from './Home.module.css'
 import SocialLogo from '../../components/SocialLogo'
 import Button from '../../components/Button'
 import { boy } from '../../assets/homeIcon'
+import Box from '../../components/HomeBox'
 
 const index = ({ homeRef }) => {
     return (
@@ -28,7 +29,11 @@ const index = ({ homeRef }) => {
                 </div>
             </div>
 
-            <div className={Style.line}></div>
+            <div>
+                <div className={Style.line}>
+                </div>
+                <Box />
+            </div>
         </div>
     )
 }
