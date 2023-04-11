@@ -1,9 +1,35 @@
 import React from 'react'
 import Style from './Home.module.css'
+import SocialLogo from '../../components/SocialLogo'
+import Button from '../../components/Button'
+import { boy } from '../../assets/homeIcon'
 
 const index = ({ homeRef }) => {
     return (
-        <div className={Style.homeSection} ref={homeRef}>Home page</div>
+        <div className={Style.home} ref={homeRef}>
+            <div className={Style.homeSection}>
+                <div className={Style.content}>
+                    <div className={Style.h1}>Hi, I am </div>
+                    <div className={Style.name} >Ashwin Khatiwada</div>
+                    <div className={Style.h1}>Software Engineer Intern/ Relaxed</div>
+                    <div className={Style.buttons}>
+                        <Button message="Contact Me" />
+                        <a href="../../../public/ashwinCV.pdf">
+                            <Button message="Download cv" color={"#302d2c"} className={Style.cv} />
+                        </a>
+                    </div>
+                    <div className={Style.logo}>
+                        <SocialLogo />
+                    </div>
+                </div>
+
+                <div className={Style.img}>
+                    <img src={boy} alt="boy image" />
+                </div>
+            </div>
+
+            <div className={Style.line}></div>
+        </div>
     )
 }
 

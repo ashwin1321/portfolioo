@@ -25,13 +25,14 @@ function App() {
         contactRef={contactRef}
         skillsRef={skillsRef}
       />
-      <SocialLogo />
-      {/* 
-      <Home homeRef={homeRef} />
-      <About aboutRef={aboutRef} />
-      <Project projectRef={projectRef} />
-      <Skills skillsRef={skillsRef} />
-      <Contact contactRef={contactRef} /> */}
+      {/* <SocialLogo /> */}
+      <div className='sections'>
+        <Home homeRef={homeRef} />
+        {/* <About aboutRef={aboutRef} />
+        <Project projectRef={projectRef} /> */}
+        {/* <Skills skillsRef={skillsRef} /> */}
+        {/* <Contact contactRef={contactRef} /> */}
+      </div>
     </div>
   )
 }
