@@ -30,8 +30,13 @@ const index = ({ skillsRef }) => {
                         </div>
                     </div>
 
-
                     <div className={Style.experience}>
+                        <div className={Style.date}>2023</div>
+                        <div className={Style.exp}>
+                            <div className={Style.title}>Software Engineer Intern</div>
+                            <div className={Style.company}>Optimum Futurist, Kathmandu, Nepal</div>
+                            <div className={Style.description}>Currently working as an intern</div>
+                        </div>
                     </div>
                 </div>
             </div>
