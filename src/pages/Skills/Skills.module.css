@@ -1,0 +1,57 @@
+.skillSection {
+  height: 80vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #eee8dc;
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 #f3ecde;
+}
+
+.skill:hover {
+  /* background-color: #424240; */
+  /* color: #f3e1ba; */
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 #31312f;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.experience {
+}
