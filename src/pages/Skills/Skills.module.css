@@ -1,5 +1,5 @@
 .skillSection {
-  height: 80vh;
+  height: 60vh;
 }
 
 .section {
@@ -15,7 +15,7 @@
   font-size: 3rem;
   text-align: center;
   font-weight: 500;
-  margin-top: 170px;
+  margin-top: 140px;
 }
 
 .content {
