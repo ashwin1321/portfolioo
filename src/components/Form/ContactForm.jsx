@@ -4,13 +4,16 @@ import { GrMail } from "react-icons/gr";
 import Button from "../../components/Button";
 
 const ContactForm = () => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
 
+    const initialFormState = { name: "", email: "", message: "" };
+    const [form, setForm] = useState(initialFormState);
+
+    const handleChange = (e) => {
+        setForm({ ...form, [e.target.name]: e.target.value });
+    };
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(name, email, message);
+        console.log(form);
     };
 
     return (
@@ -28,21 +31,24 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Enter your name here"
                         className={Style.input}
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        value={form.name}
+                        name="name"
+                        onChange={handleChange}
                     />
                     <input
                         type="email"
                         placeholder="Enter your email here"
                         className={Style.input}
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={form.email}
+                        name="email"
+                        onChange={handleChange}
                     />
                     <textarea
                         placeholder="Enter your message here"
                         className={Style.input}
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
+                        value={form.message}
+                        name="message"
+                        onChange={handleChange}
                     />
                     <br />
                     <Button message="Send message" />
