@@ -2,6 +2,7 @@ import React from 'react'
 import Style from './Skills.module.css'
 import { FaPython, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io'
+import Skill from '../../components/Card/Skills'
 
 const index = ({ skillsRef }) => {
     return (
@@ -13,21 +14,11 @@ const index = ({ skillsRef }) => {
 
                 <div className={Style.content}>
                     <div className={Style.skills}>
-                        <div className={Style.skill}>
-                            <FaPython size={45} />
-                        </div>
-                        <div className={Style.skill}>
-                            <FaReact size={45} />
-                        </div>
-                        <div className={Style.skill}>
-                            <IoLogoJavascript size={45} />
-                        </div>
-                        <div className={Style.skill}>
-                            <FaNodeJs size={45} />
-                        </div>
-                        <div className={Style.skill}>
-                            <FaGithub size={45} />
-                        </div>
+                        <Skill iconName={<FaPython size={40} />} />
+                        <Skill iconName={<FaReact size={40} />} />
+                        <Skill iconName={<FaNodeJs size={40} />} />
+                        <Skill iconName={<IoLogoJavascript size={40} />} />
+                        <Skill iconName={<FaGithub size={40} />} />
                     </div>
 
                     <div className={Style.experience}>
