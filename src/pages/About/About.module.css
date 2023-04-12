@@ -1,3 +1,58 @@
 .aboutSection {
-  height: 60vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fdf0e4;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  width: 30vw;
+  gap: 1%;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+.h1 {
+  font-size: 1.1rem;
+  color: #5f5450;
+}
+
+.name {
+  font-size: 2.3rem;
+  color: #302d2c;
+}
+
+.p {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  color: #575555;
+  width: 150%;
+}
+
+.img1 {
+  width: 77%;
+}
+
+.img {
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+.img:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5%;
+  margin-top: 20px;
 }
