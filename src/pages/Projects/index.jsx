@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './Projects.module.css'
-import ProjectItem from '../../components/Card'
+import ProjectItem from '../../components/Card/ProjectCard'
 import { js, react, node, paisa, college, hospital, crowd, boy } from '../../assets/images'
 
 
