@@ -1,0 +1,50 @@
+.footer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailBlock {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  margin: 0 auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 10px 0 rgba(136, 127, 127, 0.2);
+}
+
+.mailText {
+  text-decoration: none;
+  color: #252525;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 80px;
+  margin-top: -20%;
+  align-items: center;
+  width: 250px;
+}
+
+.input {
+  padding: 10px;
+  width: 200%;
+  border: 1px solid #afa7a7;
+  border-radius: 7px;
+}
