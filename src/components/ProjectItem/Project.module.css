@@ -1,17 +1,18 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 15%;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(143, 140, 140, 0.26);
+  box-shadow: 0 2px 8px rgba(32, 28, 17, 0.26);
   transition: all 0.3s ease-out;
-  background-color: #fff;
 }
 
 .card:hover {
-  transform: scale(1.005);
-  box-shadow: 0 2px 8px rgba(143, 140, 140, 0.46);
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(22, 21, 21, 0.46);
+  margin: 5px;
+  background-color: #fdf0e4;
 }
 
 .content {
@@ -27,7 +28,6 @@
   width: 60%;
   height: 30%;
   object-fit: cover;
-  /* object-fit: contain; */
 }
 
 .name {
@@ -54,7 +54,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #f7efe7;
+  background-color: #fcf8f5;
   box-shadow: 0 2px 8px rgba(121, 109, 93, 0.26);
   transition: all 0.3s ease-out;
   color: rgb(56, 52, 52);

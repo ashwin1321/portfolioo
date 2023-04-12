@@ -1,5 +1,6 @@
 .skillSection {
   height: 60vh;
+  background-color: #fdf0e4;
 }
 
 .section {
@@ -92,5 +93,5 @@
   margin-top: 20px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 #ebe1ce;
+  box-shadow: 0 0 10px 0 #e7dcc7;
 }
