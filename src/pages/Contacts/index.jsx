@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Style from './Contact.module.css'
 import { GrMail } from "react-icons/gr";
 import Button from "../../components/Button";
+import FormInput from "../../components/FormInput";
 
 
 const index = ({ contactRef }) => {
@@ -27,18 +28,16 @@ const index = ({ contactRef }) => {
 
                 <div className={Style.formDiv}>
                     <form className={Style.form} onSubmit={handleSubmit}>
-                        <input
+                        <FormInput
                             type="text"
-                            placeholder="Enter your name here"
-                            className={Style.input}
+                            placeHolder="Enter your name here"
                             value={form.name}
                             name="name"
                             onChange={handleChange}
                         />
-                        <input
+                        <FormInput
                             type="email"
-                            placeholder="Enter your email here"
-                            className={Style.input}
+                            placeHolder="Enter your email here"
                             value={form.email}
                             name="email"
                             onChange={handleChange}
