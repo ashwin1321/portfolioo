@@ -6,8 +6,6 @@ import About from "./pages/About"
 import Project from "./pages/Projects"
 import Contact from "./pages/Contacts"
 import Skills from "./pages/Skills"
-import Button from "./components/Button"
-import SocialLogo from "./components/SocialLogo"
 
 function App() {
   const homeRef = useRef(null)
@@ -26,11 +24,11 @@ function App() {
         skillsRef={skillsRef}
       />
 
-      <Home homeRef={homeRef} />
-      <About aboutRef={aboutRef} />
-      {/* <Project projectRef={projectRef} /> */}
-      <Skills skillsRef={skillsRef} />
-      <Contact contactRef={contactRef} />
+      {/* <Home homeRef={homeRef} />
+      <About aboutRef={aboutRef} /> */}
+      <Project projectRef={projectRef} />
+      {/* <Skills skillsRef={skillsRef} />
+      <Contact contactRef={contactRef} /> */}
     </div>
   )
 }
