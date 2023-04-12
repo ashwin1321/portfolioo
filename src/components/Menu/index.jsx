@@ -6,10 +6,10 @@ const index = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef }) => {
     return (
         <div className={Style.menuList}>
             <MenuItem menuItem="Home" reference={homeRef} />
-            <MenuItem menuItem="about" reference={aboutRef} />
-            <MenuItem menuItem="projects" reference={projectRef} />
-            <MenuItem menuItem="skills" reference={skillsRef} />
-            <MenuItem menuItem="contact" reference={contactRef} />
+            <MenuItem menuItem="About" reference={aboutRef} />
+            <MenuItem menuItem="Projects" reference={projectRef} />
+            <MenuItem menuItem="Skills" reference={skillsRef} />
+            <MenuItem menuItem="Contact" reference={contactRef} />
         </div>
     )
 }
