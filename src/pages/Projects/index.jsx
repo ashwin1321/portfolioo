@@ -1,8 +1,13 @@
 import React from 'react'
+import Styles from './Projects.module.css'
+import ProjectItem from '../../components/ProjectItem'
+
 
 const index = ({ projectRef }) => {
     return (
-        <div ref={projectRef}>index</div>
+        <div ref={projectRef}>
+            <ProjectItem />
+        </div>
     )
 }
 
