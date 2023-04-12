@@ -51,7 +51,7 @@ const ContactForm = () => {
                         onChange={handleChange}
                     />
                     <br />
-                    <Button message="Send message" />
+                    <Button message="Send" />
                 </form>
             </div>
         </div>
