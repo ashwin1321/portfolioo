@@ -1,0 +1,24 @@
+.projectSection {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.head {
+  font-size: 3rem;
+  font-weight: 545;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 50px;
+  padding: 30px;
+  width: 40%;
+  margin: 0 auto;
+}
