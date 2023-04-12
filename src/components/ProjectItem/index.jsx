@@ -1,16 +1,12 @@
 import React from 'react'
 import Styles from './Project.module.css'
 import { FaGithub, FaLink } from 'react-icons/fa'
-import js from '../../assets/images/react.png'
 
-const index = () => {
-
-    const name = "Project Name"
-    const desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+const index = ({ img, name, desc }) => {
     return (
         <div className={Styles.card}>
             <div className={Styles.content}>
-                <img src={js} alt="project" className={Styles.img} />
+                <img src={img} alt="project" className={Styles.img} />
                 <h1 className={Styles.name}>{name}</h1>
                 <div className={Styles.links}>
                     <a href="github.com" className={Styles.link}>
