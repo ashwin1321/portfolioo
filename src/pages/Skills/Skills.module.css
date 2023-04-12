@@ -1,0 +1,96 @@
+.skillSection {
+  height: 60vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 140px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-left: 12%;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.skill {
+  background-color: #eee8dc;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 0 #f3ecde;
+}
+
+.skill:hover {
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 #31312f;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 70px; */
+}
+
+.date {
+  font-size: 1.5rem;
+  color: #3b2802;
+  margin-top: -100px;
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.company {
+  font-size: 1rem;
+  color: #5f5c56;
+}
+
+.description {
+  font-size: 1rem;
+  color: #1b1b19;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #ebe1ce;
+}

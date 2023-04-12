@@ -25,6 +25,7 @@ function App() {
         contactRef={contactRef}
         skillsRef={skillsRef}
       />
+<<<<<<< HEAD
       {/* <SocialLogo /> */}
       <div className='sections'>
         <Home homeRef={homeRef} />
@@ -33,6 +34,14 @@ function App() {
         {/* <Skills skillsRef={skillsRef} /> */}
         {/* <Contact contactRef={contactRef} /> */}
       </div>
+=======
+
+      {/* <Home homeRef={homeRef} /> */}
+      {/* <About aboutRef={aboutRef} /> */}
+      {/* <Project projectRef={projectRef} /> */}
+      <Skills skillsRef={skillsRef} />
+      {/* <Contact contactRef={contactRef} /> */}
+>>>>>>> feature/skills-page
     </div>
   )
 }
