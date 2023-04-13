@@ -1,0 +1,16 @@
+.skill {
+  background-color: #eee8dc;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 0 #f3ecde;
+}
+
+.skill:hover {
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 #31312f;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

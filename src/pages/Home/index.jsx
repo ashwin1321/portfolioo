@@ -29,7 +29,7 @@ const index = ({ homeRef }) => {
                 </div>
             </div>
 
-            <div>
+            <div className={Style.boxx}>
                 <div className={Style.line}>
                 </div>
                 <Box />

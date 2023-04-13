@@ -1,0 +1,22 @@
+.projectSection {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head {
+  font-size: 3.7rem;
+  font-weight: 540;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  height: 50%;
+  margin-top: 5%;
+}

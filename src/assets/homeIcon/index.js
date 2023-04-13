@@ -1,3 +1,4 @@
 import boy from "./boy.png";
+import aboutboy from "./about.png";
 
-export { boy };
+export { boy, aboutboy };
