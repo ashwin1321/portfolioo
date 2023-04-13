@@ -55,3 +55,141 @@
   gap: 1.5%;
   margin-top: 20px;
 }
+
+@media (min-width: 1900px) and (max-width: 1000px) {
+  .img1 {
+    width: 10%;
+    height: 60%;
+  }
+  .img {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 945px) and (max-width: 1420px) {
+  .h1 {
+    font-size: 1.3rem;
+    color: #5f5450;
+    /* width: 200%; */
+  }
+  .name {
+    font-size: 3rem;
+    color: #302d2c;
+    width: 150%;
+  }
+  .p {
+    font-size: 1.3rem;
+    color: #575555;
+    width: 160%;
+  }
+
+  .content {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 945px) and (min-width: 500px) {
+  .h1 {
+    font-size: rem;
+    color: #5f5450;
+  }
+  .name {
+    font-size: 3rem;
+    color: #302d2c;
+    width: 150%;
+  }
+  .p {
+    font-size: 1.3rem;
+    color: #575555;
+    width: 160%;
+  }
+
+  .content {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 820px) and (miax-width: 1210px) {
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
+  .img {
+    margin-left: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img1 {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .content {
+    margin-top: -10px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 350px) {
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img1 {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .content {
+    margin-top: -10px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .name {
+    width: 120%;
+    font-size: 1.5rem;
+  }
+
+  .h1 {
+    font-size: 1rem;
+  }
+
+  .p {
+    font-size: 1.1rem;
+  }
+}

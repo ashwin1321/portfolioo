@@ -12,7 +12,7 @@ const index = ({ aboutRef }) => {
                 </div>
                 <div className={Style.content}>
                     <div className={Style.name} >Ashwin Khatiwada</div>
-                    <div className={Style.h1}>Software Engineer Intern/ Relaxed</div>
+                    <div className={Style.h1}>Software Engineer Intern</div>
                     <div className={Style.p}> Highly motivated and skilled individual with a passion for the tech industry seeking to become a good human. Enjoys hobbies such as playing guitar, hiking, exploring, and playing video games to stay inspired and focused. Proven ability to approach challenges with a clear mind and excited to join a team that values growth and development.</div>
                     <div className={Style.buttons}>
                         <a href="../../../public/ashwinCV.pdf">
