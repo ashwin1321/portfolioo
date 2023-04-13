@@ -1,0 +1,17 @@
+.contactCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  gap: 10px;
+}
+
+.value {
+  font-size: 1.2rem;
+  color: #3d3c3c;
+}
+
+.icon {
+  color: rgb(53, 49, 49);
+}

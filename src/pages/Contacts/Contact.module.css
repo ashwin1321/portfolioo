@@ -1,9 +1,10 @@
 .footer {
-  height: 60vh;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  /* margin-top: -20px; */
 }
 
 .mailBlock {
@@ -27,9 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin: 0 auto;
-  margin-top: 60px;
 }
 
 .form {
@@ -47,4 +45,47 @@
   width: 200%;
   border: 1px solid #afa7a7;
   border-radius: 7px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 3px;
+  margin-top: -20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.contactMeText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+  margin-left: -400px;
+}
+
+.contactFormText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
