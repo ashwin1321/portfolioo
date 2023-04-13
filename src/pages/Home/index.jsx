@@ -25,7 +25,7 @@ const index = ({ homeRef }) => {
                 </div>
 
                 <div className={Style.img}>
-                    <img src={boy} alt="boy image" />
+                    <img src={boy} alt="boy image" className={Style.boyImg} />
                 </div>
             </div>
 

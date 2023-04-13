@@ -1,8 +1,9 @@
 .menuList {
   display: flex;
   flex-direction: row;
+  gap: 15px;
   width: 20%;
   justify-content: space-between;
-  font-size: 1.5rem;
-  margin-right: 10%;
+  font-size: 1.3rem;
+  margin-right: 15%;
 }
