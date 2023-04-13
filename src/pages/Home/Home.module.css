@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 600px) {
+@media screen and (max-width: 980px) and (min-width: 600px) {
   .img {
     display: none;
   }
@@ -155,5 +155,13 @@
     width: 120%;
     font-size: 2.5rem;
     color: #302d2c;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1010px) {
+  .buttons {
+    width: 110%;
+    align-items: center;
+    justify-content: center;
   }
 }
