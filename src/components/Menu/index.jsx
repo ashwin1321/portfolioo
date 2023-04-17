@@ -3,13 +3,19 @@ import MenuItem from '../MenuItems'
 import Style from './Menu.module.css'
 
 const index = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef }) => {
+    const items = {
+        "Home": homeRef,
+        "About": aboutRef,
+        "Projects": projectRef,
+        "Skills": skillsRef,
+        "Contact": contactRef
+    }
+
     return (
         <div className={Style.menuList}>
-            <MenuItem menuItem="Home" reference={homeRef} />
-            <MenuItem menuItem="About" reference={aboutRef} />
-            <MenuItem menuItem="Projects" reference={projectRef} />
-            <MenuItem menuItem="Skills" reference={skillsRef} />
-            <MenuItem menuItem="Contact" reference={contactRef} />
+            {Object.keys(items).map((item, index) => {
+                return <MenuItem key={index} menuItem={item} reference={items[item]} />
+            })}
         </div>
     )
 }
