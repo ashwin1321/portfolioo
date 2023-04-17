@@ -6,6 +6,11 @@
   gap: 10px;
 }
 
+.contactCard:hover {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
 .value {
   font-size: 1.2rem;
   color: #3d3c3c;
