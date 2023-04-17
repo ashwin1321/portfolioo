@@ -5,3 +5,21 @@
   border-radius: 7px;
   margin-left: -80%;
 }
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .input {
+    padding: 10px;
+    width: 163%;
+    border-radius: 7px;
+    margin-left: -37%;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1400px) {
+  .input {
+    padding: 10px;
+    width: 201%;
+    border-radius: 7px;
+    margin-left: -56%;
+  }
+}

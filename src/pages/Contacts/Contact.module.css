@@ -4,24 +4,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* margin-top: -20px; */
-}
-
-.mailBlock {
-  display: flex;
-  flex-direction: row;
-  width: 15%;
-  margin: 0 auto;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  box-shadow: 0 0 10px 0 rgba(136, 127, 127, 0.2);
 }
 
 .mailText {
   text-decoration: none;
-  color: #252525;
 }
 
 .formDiv {
@@ -80,7 +66,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 100px; */
   margin-left: -400px;
 }
 
@@ -88,4 +73,86 @@
   text-align: center;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 360px) and (max-width: 850px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    gap: 30px;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .contactFormText {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .form {
+    margin-top: -20%;
+    align-items: center;
+    width: 160%;
+  }
+
+  .input {
+    padding: 10px;
+    width: 156%;
+    border-radius: 7px;
+  }
+  .button {
+    margin-top: -12%;
+  }
+
+  .logo {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1400px) {
+  .footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: space-between;
+    gap: 40%;
+  }
+  .formDiv {
+    width: 110%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20%;
+    align-items: center;
+  }
+
+  .input {
+    padding: 10px;
+    width: 160%;
+    border: 1px solid #afa7a7;
+    border-radius: 7px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .contactMeText {
+    font-size: 1.5rem;
+  }
+
+  .contactFormText {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }

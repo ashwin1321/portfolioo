@@ -24,8 +24,6 @@ const index = ({ contactRef }) => {
         <div ref={contactRef} className={Style.contact}>
             <div className={Style.footer}>
 
-
-
                 <div className={Style.contactMe}>
                     <p className={Style.contactMeText}>Find Me</p>
                     <div className={Style.contactInfo}>
@@ -58,15 +56,24 @@ const index = ({ contactRef }) => {
                                 name="email"
                                 onChange={handleChange}
                             />
-                            <textarea
+                            <FormInput
+                                type="text"
+                                placeHolder="Enter your Message here"
+                                value={form.message}
+                                name="message"
+                                onChange={handleChange}
+                            />
+                            {/* <textarea
                                 placeholder="Enter your message here"
                                 className={Style.input}
                                 value={form.message}
                                 name="message"
                                 onChange={handleChange}
-                            />
+                            /> */}
                             <br />
-                            <Button message="Send" />
+                            <div className={Style.button} >
+                                <Button message="Send" />
+                            </div>
                         </form>
                     </div>
                 </div>
