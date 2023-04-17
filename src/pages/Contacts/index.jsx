@@ -78,6 +78,9 @@ const index = ({ contactRef }) => {
                     </div>
                 </div>
             </div>
+            <div className={Style.copyright}>
+                <p className={Style.copyrightText}>&copy; 2023 Ashwin Khatiwada. All rights reserved.</p>
+            </div>
         </div>
     )
 }
