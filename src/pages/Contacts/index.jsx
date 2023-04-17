@@ -27,6 +27,7 @@ const index = ({ contactRef }) => {
                 <div className={Style.contactMe}>
                     <p className={Style.contactMeText}>Find Me</p>
                     <div className={Style.contactInfo}>
+
                         <ContactInfo icon={<AiFillHome size={25} />} value={"Old Baneshwor, Kathmandu, Nepal"} />
                         <ContactInfo icon={<AiOutlineMobile size={25} />} value="+977-1234567890" />
                         <a href="mailto:code.ashwin@gmail.com" className={Style.mailText}>
