@@ -3,7 +3,7 @@ import MenuItem from '../MenuItems'
 import Style from './Menu.module.css'
 import { RxCross1 } from "react-icons/rx"
 
-const DesktopView = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef, items }) => {
+const DesktopView = ({ items }) => {
 
     return (
         <div className={Style.menuList}>
@@ -14,7 +14,7 @@ const DesktopView = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef, ite
     )
 }
 
-const MobileView = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef, setShowMenu, items }) => {
+const MobileView = ({ setShowMenu, items }) => {
     return (
         <div className={Style.menuListMobile}>
             <div className={Style.closeButton} onClick={() => setShowMenu(false)}>
