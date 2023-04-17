@@ -1,6 +1,7 @@
 import React from 'react'
 import Style from './Home.module.css'
 import SocialLogo from '../../components/SocialLogo'
+import Cv from '../../assets/cv/ashwinCV.pdf'
 import Button from '../../components/Button'
 import { boy } from '../../assets/homeIcon'
 import Box from '../../components/HomeBox'
@@ -15,7 +16,7 @@ const index = ({ homeRef }) => {
                     <div className={Style.h1}>Software Engineer Intern/ Relaxed</div>
                     <div className={Style.buttons}>
                         <Button message="Contact Me" />
-                        <a href="../../../public/ashwinCV.pdf">
+                        <a href={Cv}>
                             <Button message="Download cv" color={"#302d2c"} className={Style.cv} />
                         </a>
                     </div>
