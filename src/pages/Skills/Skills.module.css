@@ -76,7 +76,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #e7dcc7;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 950px) {
   .content {
     flex-direction: column;
   }
