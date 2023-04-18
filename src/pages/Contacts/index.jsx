@@ -64,13 +64,6 @@ const index = ({ contactRef }) => {
                                 name="message"
                                 onChange={handleChange}
                             />
-                            {/* <textarea
-                                placeholder="Enter your message here"
-                                className={Style.input}
-                                value={form.message}
-                                name="message"
-                                onChange={handleChange}
-                            /> */}
                             <br />
                             <div className={Style.button} >
                                 <Button message="Send" />

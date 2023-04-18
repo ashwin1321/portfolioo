@@ -1,5 +1,5 @@
 .skillSection {
-  height: 80vh;
+  height: 60vh;
   background-color: #fdf0e4;
 }
 
@@ -15,12 +15,14 @@
   font-size: 3rem;
   text-align: center;
   font-weight: 500;
-  margin-top: 140px;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
+  gap: 100px;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -30,9 +32,8 @@
 .skills {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
-  margin-left: 12%;
   justify-content: center;
   margin-top: -30px;
 }
@@ -41,10 +42,11 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
-  width: 100%;
-  height: 100%;
+  padding: 50px;
   align-items: center;
+  box-sizing: border-box;
   justify-content: center;
+  box-shadow: 0 0 10px 0 #e4ddd2;
 }
 
 .date {
