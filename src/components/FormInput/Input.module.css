@@ -10,9 +10,9 @@
 @media screen and (min-width: 360px) and (max-width: 768px) {
   .input {
     padding: 10px;
-    width: 163%;
+    width: 135%;
     border-radius: 7px;
-    margin-left: -37%;
+    margin-left: -25%;
   }
 }
 

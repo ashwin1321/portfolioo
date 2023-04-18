@@ -93,7 +93,6 @@
     margin-top: 250px;
     gap: 30px;
   }
-
   .contactForm {
     display: flex;
     flex-direction: column;
@@ -114,11 +113,6 @@
     width: 160%;
   }
 
-  .input {
-    padding: 10px;
-    width: 156%;
-    border-radius: 7px;
-  }
   .button {
     margin-top: -12%;
   }
