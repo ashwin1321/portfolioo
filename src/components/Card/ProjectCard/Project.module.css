@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 17%;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(32, 28, 17, 0.26);
@@ -62,4 +62,25 @@
 
 .link:hover {
   box-shadow: 0 2px 8px rgba(54, 53, 53, 0.46);
+}
+
+@media screen and (min-width: 700px) and (max-width: 1230px) {
+  .card {
+    min-width: 25%;
+    height: 66%;
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 699px) {
+  .card {
+    min-width: 25%;
+    height: 60%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 569px) {
+  .card {
+    min-width: 65%;
+    height: 70%;
+  }
 }

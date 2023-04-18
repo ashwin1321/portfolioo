@@ -1,0 +1,18 @@
+.navItems {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  opacity: 95%;
+  z-index: 20;
+}
+
+.spacer {
+  margin-right: 40px;
+}

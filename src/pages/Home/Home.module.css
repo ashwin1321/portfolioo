@@ -6,6 +6,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.home {
+  z-index: 1;
+}
 
 .content {
   display: flex;
@@ -24,7 +27,7 @@
 }
 
 .name {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #302d2c;
   position: relative;
 }
@@ -33,6 +36,9 @@
   margin-right: 15%;
   margin-top: 9.2%;
   z-index: 1;
+}
+.boyImg {
+  width: 125%;
 }
 
 .img:hover {
@@ -62,4 +68,103 @@
 
 .boxx {
   background-color: #fdf0e4;
+}
+
+@media (min-width: 1900px) and (max-width: 1000px) {
+  .boyImg {
+    width: 10%;
+    height: 60%;
+  }
+  .img {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1420px) {
+  .h1 {
+    font-size: 1.3rem;
+    color: #5f5450;
+  }
+  .name {
+    font-size: 3rem;
+    color: #302d2c;
+  }
+  .content {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 600px) {
+  .img {
+    display: none;
+  }
+  .boyImg {
+    display: none;
+  }
+  .homeSection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img {
+    display: none;
+  }
+  .boyImg {
+    display: none;
+  }
+  .homeSection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1 {
+    /* padding: 10px; */
+    font-size: 1.1rem;
+    color: #5f5450;
+  }
+  .name {
+    font-size: 2.5rem;
+    color: #302d2c;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1224px) {
+  .content {
+    padding: 5%;
+  }
+  .h1 {
+    /* padding: 10px; */
+    font-size: 1.1rem;
+    color: #5f5450;
+  }
+  .name {
+    width: 120%;
+    font-size: 2.5rem;
+    color: #302d2c;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1010px) {
+  .buttons {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }

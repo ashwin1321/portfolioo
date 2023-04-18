@@ -28,12 +28,14 @@ const index = () => {
                 </div>
                 <div className={Style.line}></div>
             </div>
-            <div className={Style.boxContent}>
-                <div className={Style.content1}>
-                    ∞
-                </div>
-                <div className={Style.content2}>
-                    Happiness
+            <div className={Style.box1}>
+                <div className={Style.boxContent}>
+                    <div className={Style.content1}>
+                        ∞
+                    </div>
+                    <div className={Style.content2}>
+                        Happiness
+                    </div>
                 </div>
             </div>
         </div>

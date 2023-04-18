@@ -1,35 +1,19 @@
 .footer {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.mailBlock {
+  height: 50vh;
   display: flex;
   flex-direction: row;
-  width: 15%;
-  margin: 0 auto;
-  padding: 10px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  box-shadow: 0 0 10px 0 rgba(136, 127, 127, 0.2);
 }
 
 .mailText {
   text-decoration: none;
-  color: #252525;
 }
 
 .formDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin: 0 auto;
-  margin-top: 60px;
 }
 
 .form {
@@ -47,4 +31,139 @@
   width: 200%;
   border: 1px solid #afa7a7;
   border-radius: 7px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 3px;
+  margin-top: -20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.contactMeText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -400px;
+}
+
+.contactFormText {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 360px) and (max-width: 850px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    gap: 30px;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .contactFormText {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .form {
+    margin-top: -20%;
+    align-items: center;
+    width: 160%;
+  }
+
+  .input {
+    padding: 10px;
+    width: 156%;
+    border-radius: 7px;
+  }
+  .button {
+    margin-top: -12%;
+  }
+
+  .logo {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1400px) {
+  .footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: space-between;
+    gap: 40%;
+  }
+  .formDiv {
+    width: 110%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20%;
+    align-items: center;
+  }
+
+  .input {
+    padding: 10px;
+    width: 160%;
+    border: 1px solid #afa7a7;
+    border-radius: 7px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .contactMeText {
+    font-size: 1.5rem;
+  }
+
+  .contactFormText {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }

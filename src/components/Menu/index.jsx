@@ -1,17 +1,31 @@
 import React from 'react'
 import MenuItem from '../MenuItems'
 import Style from './Menu.module.css'
+import { RxCross1 } from "react-icons/rx"
 
-const index = ({ homeRef, aboutRef, contactRef, skillsRef, projectRef }) => {
+const DesktopView = ({ items }) => {
+
     return (
         <div className={Style.menuList}>
-            <MenuItem menuItem="Home" reference={homeRef} />
-            <MenuItem menuItem="About" reference={aboutRef} />
-            <MenuItem menuItem="Projects" reference={projectRef} />
-            <MenuItem menuItem="Skills" reference={skillsRef} />
-            <MenuItem menuItem="Contact" reference={contactRef} />
+            {Object.keys(items).map((item, index) => {
+                return <MenuItem key={index} menuItem={item} reference={items[item]} />
+            })}
         </div>
     )
 }
 
-export default index
+const MobileView = ({ setShowMenu, items }) => {
+    return (
+        <div className={Style.menuListMobile}>
+            <div className={Style.closeButton} onClick={() => setShowMenu(false)}>
+                <RxCross1 />
+            </div>
+            {Object.keys(items).map((item, index) => {
+                return <MenuItem key={index} menuItem={item} reference={items[item]} setShowMenu={setShowMenu} />
+            })}
+        </div>
+    )
+}
+
+
+export { DesktopView, MobileView }
