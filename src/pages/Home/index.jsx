@@ -15,7 +15,9 @@ const index = ({ homeRef }) => {
                     <div className={Style.name} >Ashwin Khatiwada</div>
                     <div className={Style.h1}>Software Engineer Intern/ Relaxed</div>
                     <div className={Style.buttons}>
-                        <Button message="Contact Me" />
+                        <a href="mailto: code.ashwin@gmail.com">
+                            <Button message="Contact Me" />
+                        </a>
                         <a href={Cv}>
                             <Button message="Download cv" color={"#302d2c"} className={Style.cv} />
                         </a>

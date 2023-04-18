@@ -45,6 +45,7 @@
   padding: 50px;
   align-items: center;
   box-sizing: border-box;
+  border-radius: 15px;
   justify-content: center;
   box-shadow: 0 0 10px 0 #e4ddd2;
 }
