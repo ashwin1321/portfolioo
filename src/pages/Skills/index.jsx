@@ -6,26 +6,6 @@ import Skill from "../../components/Card/Skills";
 import data from "../../assets/data/data.json";
 
 const index = ({ skillsRef }) => {
-    // const skills = [
-    //     {
-    //         icon: <FaPython size={40} />,
-    //     },
-    //     {
-    //         icon: <FaReact size={40} />,
-    //     },
-    //     {
-    //         icon: <FaNodeJs size={40} />,
-    //     },
-    //     {
-    //         name: "Javascript",
-    //         icon: <IoLogoJavascript size={40} />,
-    //     },
-    //     {
-    //         name: "Github",
-    //         icon: <FaGithub size={40} />,
-    //     },
-    // ];
-
     return (
         <div ref={skillsRef} className={Style.skillSection}>
             <div className={Style.section}>
