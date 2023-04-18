@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from './Projects.module.css'
 import ProjectItem from '../../components/Card/ProjectCard'
-import projects from '../../assets/data/projects.json'
+import data from '../../assets/data/data.json'
 
 const index = ({ projectRef }) => {
 
@@ -11,7 +11,7 @@ const index = ({ projectRef }) => {
                 Projects
             </div>
             <div className={Styles.projects}>
-                {projects.map((project, index) => {
+                {data.projects.map((project, index) => {
                     return (
                         <ProjectItem
                             img={project.img}
