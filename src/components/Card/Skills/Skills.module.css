@@ -16,3 +16,15 @@
   transform: scale(1.5);
   transform: rotate(360deg);
 }
+
+@media screen and (max-width: 550) {
+  .skill {
+    padding: 10px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 #f3ecde;
+    transform: scale(1.5);
+    transform: rotate(360deg);
+  }
+}
