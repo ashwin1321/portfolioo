@@ -193,3 +193,46 @@
     font-size: 1.1rem;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .aboutSection {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img1 {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .content {
+    margin-top: -10px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .name {
+    width: 120%;
+    font-size: 1.2rem;
+  }
+
+  .h1 {
+    font-size: 0.8rem;
+  }
+
+  .p {
+    font-size: 0.9rem;
+  }
+}
