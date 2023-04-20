@@ -1,6 +1,6 @@
 .skillSection {
-  height: 80vh;
   background-color: #fdf0e4;
+  padding: 70px;
 }
 
 .section {
@@ -15,7 +15,7 @@
   font-size: 3rem;
   text-align: center;
   font-weight: 500;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 70px;
 }
 
@@ -82,7 +82,7 @@
 @media screen and (max-width: 1115px) {
   .content {
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     flex-direction: column;
     gap: 50px;
     align-items: center;
@@ -124,8 +124,18 @@
 
 @media screen and (max-width: 550px) {
   .heading {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 500;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    align-content: center;
   }
 
   .date {
@@ -139,5 +149,29 @@
   }
   .description {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .experience {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .date {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+  }
+  .company {
+    width: 100%;
+    text-align: center;
+  }
+  .description {
+    text-align: center;
   }
 }
