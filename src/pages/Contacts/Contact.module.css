@@ -1,5 +1,5 @@
 .footer {
-  height: 50vh;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -36,6 +36,7 @@
 .contactInfo {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 3px;
   width: 100%;
   margin-top: -20px;
@@ -48,7 +49,7 @@
 }
 
 .contactMeText {
-  text-align: center;
+  margin-left: -250px;
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -59,7 +60,7 @@
   justify-content: center;
   align-items: center;
   margin-top: -170px;
-  width: 18%;
+  width: 28%;
 }
 
 .contactForm {
@@ -87,18 +88,36 @@
   font-size: 1rem;
 }
 
-@media screen and (min-width: 360px) and (max-width: 850px) {
+@media screen and (min-width: 300px) and (max-width: 550px) {
   .footer {
     flex-direction: column;
     align-items: center;
-    margin-top: 250px;
-    gap: 30px;
+    margin-top: 200px;
+    gap: 20px;
   }
-  .contactForm {
+
+  .contactMe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -170px;
+    width: 70%;
+  }
+
+  .contactMeText {
+    margin-left: 0px;
+  }
+
+  .contactInfo {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+
     margin-left: 0px;
   }
 
@@ -123,12 +142,63 @@
   }
 }
 
-@media screen and (min-width: 851px) and (max-width: 1400px) {
+@media screen and (min-width: 551px) and (max-width: 1010px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    gap: 20px;
+  }
+  .contactMeText {
+    margin-left: -80px;
+  }
+
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: -170px;
+    width: 50%;
+  }
+
+  .contactInfo {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 0px;
+  }
+
+  .contactFormText {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .form {
+    margin-top: -20%;
+    align-items: center;
+    width: 160%;
+  }
+
+  .button {
+    margin-top: -12%;
+  }
+
+  .logo {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1011px) and (max-width: 1500px) {
   .footer {
     margin-top: 40px;
     display: flex;
     flex-direction: space-between;
-    gap: 40%;
+    gap: 200px;
   }
   .formDiv {
     width: 110%;
@@ -154,11 +224,21 @@
 
   .contactMeText {
     font-size: 1.5rem;
+    margin-left: -250px;
   }
 
   .contactFormText {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
+  }
+
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -160px;
+    width: 40%;
   }
 }
