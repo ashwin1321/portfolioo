@@ -37,6 +37,7 @@
   margin-top: 9.2%;
   z-index: 1;
 }
+
 .boyImg {
   width: 125%;
 }
@@ -45,12 +46,27 @@
   transform: scale(1.01);
   transition: 0.5s;
 }
-
 .buttons {
   display: flex;
   flex-direction: row;
   gap: 1.5%;
   margin-top: 30px;
+}
+
+a[animate^="this"] {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .logo {

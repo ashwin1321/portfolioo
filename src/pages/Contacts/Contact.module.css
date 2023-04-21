@@ -142,6 +142,12 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .contactInfo {
+    width: 110%;
+  }
+}
+
 @media screen and (min-width: 551px) and (max-width: 1010px) {
   .footer {
     flex-direction: column;

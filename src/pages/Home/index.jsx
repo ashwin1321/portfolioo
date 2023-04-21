@@ -18,7 +18,7 @@ const index = ({ homeRef }) => {
                         <a href="mailto: code.ashwin@gmail.com">
                             <Button message="Contact Me" />
                         </a>
-                        <a href={Cv}>
+                        <a href={Cv} animate='this'>
                             <Button message="Download cv" color={"#302d2c"} className={Style.cv} />
                         </a>
                     </div>

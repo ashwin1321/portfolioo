@@ -54,6 +54,19 @@
   flex-direction: row;
   gap: 1.5%;
   margin-top: 20px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (min-width: 1900px) and (max-width: 1000px) {

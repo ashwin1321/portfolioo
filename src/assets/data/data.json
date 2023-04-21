@@ -3,7 +3,7 @@
     {
       "img": "/src/assets/images/college.jpg",
       "name": "College Management System",
-      "desc": "manages college activities having multiple users: teacher, students and admin. Students can check view appointments and notes.",
+      "desc": "manages college activities with users: teacher, students and admin. Students can check view appointments and notes.",
       "git": "https://github.com/ashwin1321/manage-college",
       "link": "https://github.com/ashwin1321/manage-college"
     },
@@ -24,14 +24,14 @@
     {
       "img": "/src/assets/images/crowd.png",
       "name": "Crowd Funding App",
-      "desc": "a platform where people can raise funds for their projects. Users can donate to projects and can also create their own projects using ethereum blockchain technology.",
+      "desc": "a platform where people can raise funds. Users can donate to projects and can also create their own projects using ethereum blockchain technology.",
       "git": "https://github.com/ashwin1321/CrowdFundingDapp",
       "link": "https://ashwin-crowdfund.netlify.app"
     },
     {
       "img": "/src/assets/images/boy.png",
       "name": "Portfolio Site",
-      "desc": "a portfolio site to showcase my projects and skills. It is built using react.",
+      "desc": "It is my portfolio site. It is replica for my cv, it is more interactive and responsive than cv. It is made using react js and pure css.",
       "git": "https://github.com/ashwin1321/portfolioo",
       "link": "https://github.com/ashwin1321/portfolioo"
     }
