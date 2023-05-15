@@ -1,42 +1,42 @@
 {
   "projects": [
     {
-      "img": "/src/assets/images/college.jpg",
+      "img": "https://www.picktime.com/webassets/2021/img/business/colleges-hero.svg",
       "name": "College Management System",
       "desc": "manages college activities with users: teacher, students and admin. Students can check view appointments and notes.",
       "git": "https://github.com/ashwin1321/manage-college",
       "link": "https://github.com/ashwin1321/manage-college"
     },
     {
-      "img": "/src/assets/images/hospital.svg",
+      "img": "https://healthwire.pk/assets/B2c/hospital-banner-78d804448105dba686c428afcb300b72379c6e03d7e9431279d11b89ed529183.svg",
       "name": "Hospital Management System",
       "desc": " manages hospital activities having multiple users: doctor, patients and admin and lab. Patients can book appointment and check their reports.",
       "git": "https://github.com/ashwin1321/Hospital-Management-System",
       "link": "https://github.com/ashwin1321/Hospital-Management-System"
     },
     {
-      "img": "/src/assets/images/paisa.png",
+      "img": "https://www.spaceo.ca/wp-content/uploads/2020/11/expance_abstract.svg",
       "name": "Expense Tracker App",
       "desc": "manages expenses and income of users. Users can add, edit and delete their expenses and income. Users can also check their balance and expenses in different categories.",
       "git": "https://github.com/ashwin1321/expense-tracker",
       "link": "https://paisakhoi.cyclic.app/"
     },
     {
-      "img": "/src/assets/images/crowd.png",
+      "img": "https://www.gofundme.com/en-gb/c/wp-content/uploads/sites/11/2021/06/2020-Figures-3.png?w=1024",
       "name": "Crowd Funding App",
       "desc": "a platform where people can raise funds. Users can donate to projects and can also create their own projects using ethereum blockchain technology.",
       "git": "https://github.com/ashwin1321/CrowdFundingDapp",
       "link": "https://ashwin-crowdfund.netlify.app"
     },
     {
-      "img": "/src/assets/images/boy.png",
+      "img": "https://freesvg.org/img/publicdomainq-business-man-strong.png",
       "name": "Portfolio Site",
       "desc": "It is my portfolio site. It is replica for my cv, it is more interactive and responsive than cv. It is made using react js and pure css.",
       "git": "https://github.com/ashwin1321/portfolioo",
       "link": "https://ashwin1321.github.io/portfolioo/"
     },
     {
-      "img": "/src/assets/images/spotify.png",
+      "img": "https://ashwinspotifyclone.onrender.com/assets/spotify-fae3c494.png",
       "name": "Spotify Clone",
       "desc": "It is a clone of spotify. It is made using react js and firebase. It is responsive only for web browsers.",
       "git": "https://github.com/ashwin1321/spotify-clone",
