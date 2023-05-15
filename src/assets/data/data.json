@@ -33,7 +33,14 @@
       "name": "Portfolio Site",
       "desc": "It is my portfolio site. It is replica for my cv, it is more interactive and responsive than cv. It is made using react js and pure css.",
       "git": "https://github.com/ashwin1321/portfolioo",
-      "link": "https://github.com/ashwin1321/portfolioo"
+      "link": "https://ashwin1321.github.io/portfolioo/"
+    },
+    {
+      "img": "/src/assets/images/spotify.png",
+      "name": "Spotify Clone",
+      "desc": "It is a clone of spotify. It is made using react js and firebase. It is responsive only for web browsers.",
+      "git": "https://github.com/ashwin1321/spotify-clone",
+      "link": "https://ashwinspotifyclone.onrender.com/"
     }
   ],
 
