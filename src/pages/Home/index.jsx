@@ -29,7 +29,7 @@ const index = ({ homeRef }) => {
                 <div className={Style.content}>
                     <div className={Style.h1}>Hi, I am </div>
                     <div className={Style.name} >{text}</div>
-                    <div className={Style.h1}>Software Engineer Intern</div>
+                    <div className={Style.h1}>Software Engineer </div>
                     <div className={Style.buttons}>
                         <a href="mailto: code.ashwin@gmail.com">
                             <Button message="Contact Me" />
